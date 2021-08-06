@@ -1,0 +1,3 @@
+#find external IP of website
+#ping -c 1 42.fr | grep PING | cut -d " " -f 3 | sed "s/(//" | sed "s/)://"
+163.172.250.13

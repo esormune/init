@@ -1,0 +1,2 @@
+#file that contains the RSA keys that are authorized to connect via ssh
+~/.ssh/authorized_keys

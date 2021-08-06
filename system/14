@@ -1,0 +1,2 @@
+#run a command in background (add &)
+tail -f /var/log/syslog &

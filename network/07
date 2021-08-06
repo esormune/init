@@ -1,0 +1,3 @@
+#query and external DNS server on a website's domain name
+#alternatively nslookup slash16.org 8.8.8.8
+dig @8.8.8.8 +short google slash16.org

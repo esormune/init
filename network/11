@@ -1,0 +1,4 @@
+#using traceroute, IP address of device that makes link between
+#local network and outside world 
+#first is local ip, then nat, and the third is public ip
+nat (10.60.1.1)

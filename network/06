@@ -1,0 +1,3 @@
+#complete path of file that contains IP address of the DNS server I'm using
+#matches what is found in scutil --dns | grep nameserver
+/etc/resolv.conf

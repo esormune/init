@@ -1,0 +1,2 @@
+#ip address of the dns that responds to website
+nslookup slash16.org

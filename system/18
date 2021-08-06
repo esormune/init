@@ -1,0 +1,2 @@
+#kill ssh service
+systemctl stop ssh

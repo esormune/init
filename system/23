@@ -1,0 +1,8 @@
+#how to connect yourself as new user
+for ssh, run "ssh username@ip_address" and enter your password.
+for the graphic session, first make sure you're allowed X11 forwarding 
+	by checking /etc/ssh/sshd_config; add these lines if need be:
+	X11Forwarding yes
+	X11DisplayOffset 10
+	and if you had to edit file, run "sudo /etc/init.d/ssh restart".
+	then, run "ssh -X username@ip_address".

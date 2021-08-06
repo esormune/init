@@ -1,0 +1,2 @@
+#add a new local user
+sudo adduser username

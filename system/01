@@ -1,0 +1,2 @@
+#where to find installed version of debian
+/etc/issue or /etc/os-release

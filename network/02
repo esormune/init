@@ -1,0 +1,2 @@
+#get ethernet's broadcast address and all ip addresses in the same subnet
+ifconfig en0 | grep broadcast | cut -d " " -f 2,6 | tr " " "\n"

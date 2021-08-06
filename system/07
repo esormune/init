@@ -1,0 +1,2 @@
+#figure out the PID (process ID) of sshd service
+systemctl status sshd | grep PID | awk ' { print $3 } '

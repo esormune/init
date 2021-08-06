@@ -1,0 +1,3 @@
+#list all services that start at boot
+#also: service --status-all
+systemctl list-units --type=service

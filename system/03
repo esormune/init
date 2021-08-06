@@ -1,0 +1,3 @@
+#after renaming system through hostname new_name,
+#edit these files to make it permanent
+/etc/hostname and /etc/hosts

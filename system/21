@@ -1,0 +1,2 @@
+#list all real users on vm
+cat /etc/passwd | grep '/home' | cut -d : -f 1

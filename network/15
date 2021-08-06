@@ -1,0 +1,4 @@
+#make an address reroute; make intra.42.fr reroute to below address
+go to /etc/hosts
+add this row:
+46.19.122.85   intra.42.fr

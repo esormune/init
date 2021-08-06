@@ -1,0 +1,2 @@
+#display available space left and used on system in human way
+df -h --total

@@ -1,0 +1,2 @@
+#find IP assigned to you by dchp server
+ifconfig en0 | grep -w inet | cut -d " " -f 2

@@ -1,0 +1,14 @@
+#delete an active user on the vm
+echo "Please enter name of user to delete."
+read user
+exists=$(cat /etc/passwd | grep $user)
+if [ -z "${exists}" ]; then
+	echo "User does not exist."
+else
+	sudo passwd -l $user
+	if [ ! -z "$(pgrep -u $user)" ]; then
+		sudo kill -9 $(pgrep -u $user)
+	fi
+	sudo userdel -r $user
+	echo "Successfully deleted $user."
+fi

@@ -1,0 +1,5 @@
+#how to kill a background process
+#pkill function_name or fg function_name (to bring it up front), then ^C,
+#if the process has stopped use -9 for force,  
+#or get process id through jobs and
+kill process_id

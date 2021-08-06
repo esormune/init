@@ -1,0 +1,2 @@
+#exact size (disk usage) of each folder in a dir (humanly)
+du -h /var
